@@ -1,2 +1,80 @@
-# pbt
-database for bus ticket booking
+1.LOGIN FOR CUSTOMER
+USERNAME     PASSWORD
+A            2545486
+B            78DS448
+
+
+2.CUSTOMER DETAILS
+CUST_ID    CUST_NAME    GENDER    CONTACT
+254        A            MALE      846321515
+234        B            FEMALE    958415151
+
+
+3.BUS DETAILS
+BUS_NO    BUS_TYPE           SEAT AVAIL    
+25A       POINT TO POINT      60
+32C       POINT TO POINT      45
+
+
+4.TICKET DETAILS
+CUST_ID   TICKET_ID   SEAT_NO   DEPARTURE DATE    BUS_NO   
+254       1AD5        15        02/11/2018        25A
+234       200E        27        15/07/2018        32C
+
+
+5.PAYMENT DETAILS
+CUST_ID   MODE OF PAYMENT   AMOUNT 
+254       CASH              2000
+234       PAYTM             4500
+
+
+6.TRAVEL DETAILS
+BUS_NO   SOURCE   DESTINATION      BUS_TYPE           EXPECTED_DURATION
+25A      CHENNAI  VELLORE          POINT TO POINT     3 HRS 30 MINS
+32C      KARUR    MADURAI          MULTI POINT        6 HRS 45 MINS
+
+7.SEATING DETAILS
+SEAT_NO   STATUS     GENDER
+15        BOOKED     MALE
+24        AVAILABLE  FEMALE
+
+
+8.ROUTE ID'S
+ROUTE_ID    ROUTE_NAME    
+1           POONAMALLE
+2           VIJAYANAGAR
+
+
+9.ROUTE DETAILS
+BUS_NO    ROUTE_ID    
+25A       1
+32C       2
+
+
+10.CANCELLATION DETAILS
+BUS_NO   TICKET_ID    
+25A      1AD5
+32C      200E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
